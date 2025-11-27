@@ -202,5 +202,3 @@ Pour toute question ou assistance, contactez-moi :
 Ce portfolio est libre d'utilisation pour votre usage personnel.
 
 ---
-
-**Fait avec ❤️ par Luckner JEAN**
