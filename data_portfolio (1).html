@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luckner JEAN - Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Luckner JEAN</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Je transforme vos données en 
+                    <span class="highlight">décisions concrètes</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Data Analytics – Disponible pour CDI, CDD, mission freelance 
+                </p>
+                <p class="hero-description">
+                    Data Analyst doté d'expérience en <strong>collecte, traitement et exploitation des données</strong> 
+                    pour conduire à des <strong>insights actionnables</strong>. Spécialisé dans la 
+                    <strong>conception de dashboards, reportings & automatisation</strong>, 
+                    l'<strong>analyse statistique et modèles ML</strong>.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">
+                        <span>📁</span> Voir mes projets
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>📧</span> Me contacter
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-wrapper">
+                    <img src="profile.jpg" alt="Luckner JEAN" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>
+                        Passionné par la data et l'analyse, je suis <strong>Luckner JEAN</strong>, 
+                        Data Analytics avec plusieurs années d'expérience dans la transformation de 
+                        données brutes en insights stratégiques.
+                    </p>
+                    <p>
+                        Mon approche combine <strong>rigueur analytique</strong>, 
+                        <strong>créativité</strong> dans la visualisation et 
+                        <strong>sens du business</strong> pour livrer des solutions qui ont un 
+                        impact réel sur les décisions stratégiques.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Années d'expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projets réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Entreprises</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <p class="section-subtitle">Technologies et outils maîtrisés</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Langages & Requêtes</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📚</div>
+                    <h3>Librairies Python</h3>
+                    <div class="skill-tags">
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Seaborn</span>
+                        <span class="tag">Scipy</span>
+                        <span class="tag">Streamlit</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & Bases de données</h3>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">GCP</span>
+                        <span class="tag">Azure Data Lake</span>
+                        <span class="tag">Data Factory</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Outils Analytiques</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Excel</span>
+                        <span class="tag">VBA</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Statistiques</span>
+                        <span class="tag">Data Mining</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Comment je peux vous aider</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Dashboard & Reporting</h3>
+                    <p>Création de tableaux de bord interactifs et rapports automatisés pour visualiser vos KPIs en temps réel.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Machine Learning</h3>
+                    <p>Développement de modèles prédictifs pour anticiper les tendances et optimiser vos décisions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔄</div>
+                    <h3>ETL & Automatisation</h3>
+                    <p>Mise en place de pipelines de données automatisés pour collecter, transformer et charger vos données.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Analyse Statistique</h3>
+                    <p>Analyse approfondie de vos données pour identifier les patterns, tendances et insights actionnables.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Data Strategy</h3>
+                    <p>Conseil en stratégie data pour définir une roadmap et maximiser la valeur de vos données.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>Data Quality</h3>
+                    <p>Audit et amélioration de la qualité de vos données pour des analyses fiables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projets Réalisés</h2>
+            <p class="section-subtitle">Découvrez mes réalisations</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <span class="project-icon">🏠</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">Août 2025</span>
+                        <h3>Application Streamlit - Prédiction Prix Immobilier</h3>
+                        <p>Développement d'une application de prédiction des prix de maisons sur le marché immobilier de Boston.</p>
+                        <div class="project-tags">
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">ML</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="#" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <span class="project-icon">⚡</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">Février 2025</span>
+                        <h3>Prévision de la Consommation Énergétique</h3>
+                        <p>Modèle prédictif pour anticiper la consommation énergétique de Commonwealth Edison.</p>
+                        <div class="project-tags">
+                            <span class="tag">Time Series</span>
+                            <span class="tag">Forecasting</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="#" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <span class="project-icon">📊</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">Mars 2025</span>
+                        <h3>Dashboard Stratégique - MEUBLATEX</h3>
+                        <p>Tableau de bord interactif avec ingénierie complète : Data Lake, Warehouse et visualisation Power BI.</p>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Azure</span>
+                            <span class="tag">ETL</span>
+                        </div>
+                        <a href="#" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <span class="project-icon">📈</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">Décembre 2024</span>
+                        <h3>Application d'Analyse de Commodités</h3>
+                        <p>Application Streamlit complète avec analyse et visualisation des tendances de commodités.</p>
+                        <div class="project-tags">
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Scipy</span>
+                        </div>
+                        <a href="#" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Expérience Professionnelle</h2>
+            <p class="section-subtitle">Mon parcours</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Novembre 2024 – Mars 2025</span>
+                        <h3>Data Analyst</h3>
+                        <h4>THELUS Inc</h4>
+                        <ul>
+                            <li>Tâches de recherche et d'évaluation sur plateforme web</li>
+                            <li>Vérification et comparaison des données</li>
+                            <li>Détermination de la pertinence et de l'exactitude des informations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Août 2018 – Décembre 2021</span>
+                        <h3>Data Analyst</h3>
+                        <h4>Farmatrix S.A</h4>
+                        <ul>
+                            <li>Récupération et interrogation des données via SQL</li>
+                            <li>Analyse et traitement des données internes</li>
+                            <li>Modélisation et mise à jour des données dans l'ERP</li>
+                            <li>Conception de Dashboard Interactif avec Power BI</li>
+                            <li>Automatisation de l'envoi des rapports mensuels</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Novembre 2015 – Octobre 2017</span>
+                        <h3>Chargé d'études Statistiques</h3>
+                        <h4>Expert Plus S.A</h4>
+                        <ul>
+                            <li>Collecte, exploration et nettoyage des données</li>
+                            <li>Analyse des données avec Pandas & NumPy</li>
+                            <li>Visualisation avec Matplotlib & Seaborn</li>
+                            <li>Conception de modèles prédictifs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <p class="section-subtitle">Discutons de votre prochain projet data</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:luckner.ljean@gmail.com">votre.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/luckner-jean-285051152/" target="_blank">Luckner JEAN</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💻</span>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/JL-D24" target="_blank">@votre-profil</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Luckner JEAN - Data Analyst. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
