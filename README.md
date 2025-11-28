@@ -203,4 +203,3 @@ Ce portfolio est libre d'utilisation pour votre usage personnel.
 
 ---
 
-**Fait avec ❤️ par Luckner JEAN**
